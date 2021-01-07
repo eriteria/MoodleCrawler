@@ -1,5 +1,5 @@
 # MoodleCrawler
-Simple Python Script to download course notes from moodle.covenantuniversity.edu.ng
+Simple Python Script to download course notes from https://moodle.covenantuniversity.edu.ng
 
 
 ## How To Use
