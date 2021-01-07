@@ -43,14 +43,3 @@ class MoodleDownloaderSpider(scrapy.Spider):
                     os.mkdir(f'{self.file_path}/{courseCode}')  
 
                 yield scrapy.Request(url=link, callback=self.download_file, meta={'courseCode': courseCode})
-
-
-        
-
-        
-                
-
-            
-                
-
-        
