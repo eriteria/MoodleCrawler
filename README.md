@@ -7,5 +7,5 @@ Simple Python Script to download course notes from https://moodle.covenantuniver
 1. Install scrapy with **pip install scrapy**
  
 ```
-scrapy ./pathtomainpyfile/main.py runspider --nolog -a username='USERNAME' -a password='PASSWORD' -a file_path='FILE_PATH'
+scrapy runspider ./pathtomainpyfile/main.py --nolog -a username='USERNAME' -a password='PASSWORD' -a file_path='FILE_PATH'
 ```
